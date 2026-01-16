@@ -1,8 +1,8 @@
 import requests
 
 # Replace the placeholders with your Trello API key and authorization token
-api_key = '13a45376e8770f8efe9450e0974de27d'
-auth_token = 'ATTAef2ff1e1acbc3e69e1128b6cc6179afec94c7a2c5d49abb165a277602f335574CFF83B61'
+api_key = ''
+auth_token = ''
 
 def get_boards():
     # Define the endpoint for retrieving the boards
@@ -132,4 +132,5 @@ print('Trello CLI')
 print('1. View boards')
 print('2. View lists')
 print('3. View cards')
+
 print('4. Exit')
